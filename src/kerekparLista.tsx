@@ -31,6 +31,8 @@ export function KerekparLista() {
         fetchKerekparok();
     }, []);
 
+    
+
     return (
         <div>
             <h1>Kerekparok</h1>

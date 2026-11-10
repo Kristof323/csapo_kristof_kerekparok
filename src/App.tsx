@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import './App.css'
 import { KerekparLista } from './kerekparLista'
+import { Kerekpar } from './Kerekpar'
 
-function App() {
+ function App() {
+  
 
 
   return (
     <div className="App">
       <KerekparLista />
+      <Kerekpar />
     </div>
   )
 }
